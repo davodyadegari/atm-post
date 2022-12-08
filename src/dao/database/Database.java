@@ -1,4 +1,4 @@
-package database;
+package dao.database;
 
 
 import model.Account;
