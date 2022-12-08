@@ -4,9 +4,13 @@ import model.Account;
 import model.User;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface Dao<T> {
-    T save(T t);
+    Optional<T>findByID(Integer id);
+    void save(T t);
     void update();
-     List<T> read();
+     List<T> getAll();
+     void update(T t);
+     void delete(T t);
 }
