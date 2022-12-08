@@ -1,10 +1,8 @@
 package dao;
 
-import model.Account;
 import model.User;
 
 import java.sql.*;
-import java.time.LocalDate;
 import java.util.List;
 
 public class UserDao implements Dao<User> {
